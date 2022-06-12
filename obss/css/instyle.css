@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+html, body {
+  height: 100%;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  background-image: radial-gradient(farthest-corner at 60% 60%, #141724 0%, #04050A 100%);
+  -webkit-transform: translate3d(0, 0, 0);
+}
+.container::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(4, 5, 10, 0), rgba(4, 5, 10, 0) 50%, rgba(4, 5, 10, 0.8) 50%, rgba(4, 5, 10, 0.1));
+}
+
+.btn {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  width: 15em;
+}
+.btn span {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  z-index: 3;
+  padding: 1em 0;
+  border-radius: 0.68em;
+}
+.btn span::before, .btn span::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.btn span::before {
+  background: #0d1019;
+  background-image: radial-gradient(farthest-corner at 60% 60%, #141724 0%, #04050A 100%);
+}
+.btn span::after {
+  background-image: linear-gradient(135deg, rgba(4, 5, 10, 0), rgba(4, 5, 10, 0) 70%, #04050a 70%, rgba(4, 5, 10, 0));
+  transform: translateX(-100%);
+  transition: transform 0.5s ease;
+}
+.btn::before, .btn::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  border-radius: 0.75em;
+  background: linear-gradient(to right, #5A52FF, #8B85FF);
+}
+.btn::before {
+  top: -2px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+}
+.btn::after {
+  top: 50%;
+  left: 50%;
+  width: 110%;
+  height: 130%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  filter: blur(1.5em);
+  transition: opacity 0.3s ease, filter 0.3s ease;
+}
+
+.btn:hover span::after {
+  transform: translateX(5em);
+}
+.btn:hover::after {
+  opacity: 0.15;
+}

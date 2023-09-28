@@ -1,4 +1,5 @@
-![project-1](https://github.com/abhijithca78/Online-Book-Selling-System/assets/83497961/68b72852-310a-4020-a677-eed0bc5be0af)
+![project-2](https://github.com/abhijithca78/Online-Book-Selling-System/assets/83497961/e5c14bba-8636-42aa-9ff9-1cb40c487b79)
+
 # Online-Book-Selling-System
 
 1.1 Introduction to project

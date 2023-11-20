@@ -45,9 +45,8 @@ user can alter profile, purchase, search product.
 
 2 . Install xampp server:
 
-```html
-  https://www.apachefriends.org/download.html
-```
+  <a href="https://www.apachefriends.org/download.html">https://www.apachefriends.org/download.html</a>
+
 - `Start Apache, MySQL & FileZilla`
 - `Open MySQL Admin panel`
 - `Create database named obss and upload the "obss final.sql" from cloned database folder`
@@ -60,9 +59,8 @@ Start the projects
 
 Open your browser and paste this link
 
-```html
-  localhost/obss/
-```
+  <a href="localhost/obss/">localhost/obss/</a>
+
 
 ## Test Cases
 

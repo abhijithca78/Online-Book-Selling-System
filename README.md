@@ -32,3 +32,14 @@ user can alter profile, purchase, search product.
 
 Please get the documentation here -
 [Documentation](https://github.com/abhijithca78/Online-Book-Selling-System/files/13417182/documentation.pdf)
+
+## System Design
+
+#### Data Flow Diagram
+![DFD](https://github.com/abhijithca78/Online-Book-Selling-System/assets/83497961/9428eadd-952c-4a18-aad4-4e9b8b25f594)
+
+#### Entity Relationship Diagram
+![ER](https://github.com/abhijithca78/Online-Book-Selling-System/assets/83497961/7372e84e-8a29-4de6-a2e4-81e6ff6d2e92)
+
+
+

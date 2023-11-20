@@ -35,6 +35,20 @@ user can alter profile, purchase, search product.
 #### Entity Relationship Diagram
 ![ER](https://github.com/abhijithca78/Online-Book-Selling-System/assets/83497961/7372e84e-8a29-4de6-a2e4-81e6ff6d2e92)
 
+## Installation
+
+1 . Clone the repository:
+
+```bash
+  git clone https://github.com/abhijithca78/Online-Book-Selling-System.git
+```
+
+2 . Install phpMyAdmin:
+
+```html
+  https://www.phpmyadmin.net/downloads/
+```
+- `Create database named obss and upload the "obss final.sql" from cloned database folder`
 
 ## Documentation
 

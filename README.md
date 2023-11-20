@@ -59,7 +59,7 @@ Start the projects
 
 Open your browser and paste this link
 
-  <a href="localhost/obss/" target="_blank">localhost/obss/</a>
+  <a href="/localhost/obss/" target="_blank">localhost/obss/</a>
 
 
 ## Test Cases

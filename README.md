@@ -19,11 +19,11 @@ This application consists of following modules:
 - Admin module
 - User module
 
-Admin Module
+#### Admin Module
 
 The admin module will be used by the administrator to monitor everything and all the access required such as report, allow/deny etc.
 
-User Module
+#### User Module
 
 user can alter profile, purchase, search product.
 

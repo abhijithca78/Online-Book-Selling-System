@@ -43,12 +43,26 @@ user can alter profile, purchase, search product.
   git clone https://github.com/abhijithca78/Online-Book-Selling-System.git
 ```
 
-2 . Install phpMyAdmin:
+2 . Install xampp server:
 
 ```html
-  https://www.phpmyadmin.net/downloads/
+  https://www.apachefriends.org/download.html
 ```
+- `Start Apache, MySQL & FileZilla`
+- `Open MySQL Admin panel`
 - `Create database named obss and upload the "obss final.sql" from cloned database folder`
+
+## Run Locally
+
+Start the projects
+
+`Start Apache, MySQL & FileZilla`
+
+Open your browser and paste this link
+
+```html
+  localhost/obss/
+```
 
 ## Documentation
 

@@ -64,6 +64,14 @@ Open your browser and paste this link
   localhost/obss/
 ```
 
+## Test Cases
+
+![Test 1](https://github.com/abhijithca78/Online-Book-Selling-System/assets/83497961/7080111c-25bc-43b0-9d57-f37faa8a0c1b)
+
+![Test 2](https://github.com/abhijithca78/Online-Book-Selling-System/assets/83497961/ce70e657-65ab-4ebb-8b2c-5fec7573f951)
+
+
+
 ## Documentation
 
 Please get the documentation here -

@@ -56,7 +56,7 @@ user can alter profile, purchase, search product.
 
 Start the projects
 
-`Start Apache, MySQL & FileZilla`
+`Start Apache, MySQL & FileZilla from xampp server`
 
 Open your browser and paste this link
 
